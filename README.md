@@ -1,8 +1,8 @@
 # stdman-cpp
 
-由于manpage文件是以`std::vector::size`形式命名的，与代码中的调用形式不一致，因此并不适合通过在vim中设置keywordprg来查看。
+由于manpage文件是以`std::vector::size`形式命名的，与代码中的调用形式`v.size()`不一致，因此并不适合通过在vim中设置`keywordprg`来查看。
 
-后续考虑实现一个shell脚本`cppman`，在命令行中查看相应的manpage
+后续考虑实现一个shell脚本`cppman`，在命令行中查看：
 
 ```bash
 # 标准形式
